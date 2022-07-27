@@ -1,0 +1,10 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.carousel-item img {
+    filter: brightness(50%);
+}
+
+.carousel-item h4 {
+    font-size: 40px;
+}
