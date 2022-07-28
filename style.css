@@ -7,6 +7,7 @@
 
 .carousel-item img {
     filter: brightness(50%);
+    position: relative;
 }
 
 .carousel-caption {
@@ -31,12 +32,12 @@
 /* Phone Devices */
 @media only screen and (max-width:576px) {
     .carousel-caption {
-        bottom: 20px;
+        bottom: 15px;
     }
 
     .carousel-item {
-        padding: 10px 15px;
-        font-size: 15px;
+        padding: 10px 10px;
+        font-size: 10px;
     }
 
     .carousel-item h4 {
@@ -45,8 +46,13 @@
     }
 
     .carousel-item p {
-        padding: 5px 5px;
+        padding: 3px 2px;
         font-size: 8px;
+    }
+
+    .carousel-item button {
+        padding: 2px 3px;
+        font-size: 5px;
     }
 
     .trusted-company {
@@ -56,6 +62,20 @@
 
 /* Tab Devices */
 @media only screen and (min-width:577px) and (max-width:992px) {
+    .carousel-caption {
+        bottom: 15px;
+    }
+
+    .carousel-item {
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+
+    .carousel-item h4 {
+        padding: 5px 5px;
+        font-size: 20px;
+    }
+
     .trusted-company {
         display: none;
     }
