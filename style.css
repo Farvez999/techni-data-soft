@@ -58,6 +58,10 @@
     .trusted-company {
         display: none;
     }
+
+    .meet-student h1 {
+        font-size: 30px;
+    }
 }
 
 /* Tab Devices */
@@ -78,5 +82,9 @@
 
     .trusted-company {
         display: none;
+    }
+
+    .meet-student h1 {
+        font-size: 30px;
     }
 }
